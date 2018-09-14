@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/btn_init_sender"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Init Sender"/>
+    
+    <Button 
+        android:id="@+id/btn_init_receiver"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Init Receiver"/>
+    
+    <Button 
+        android:id="@+id/btn_send"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"/>
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="清除图片"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="match_parent" />
+    
+
+</LinearLayout>
